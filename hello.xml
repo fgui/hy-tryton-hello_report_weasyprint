@@ -1,0 +1,19 @@
+<tryton>
+  <data>
+    <record model="ir.action.report" id="report_hello">
+      <field name="name">Hello Report</field>
+      <field name="model">hello</field>
+      <field name="report_name">hello.report</field>
+      <field name="report">hello_report_weasyprint/hello.html</field>
+      <field name="template_extension">html</field>
+      <field name="extension">pdf</field>
+    </record>
+    
+    <record model="ir.action.keyword" id="report_hello_keyword">
+      <field name="keyword">form_print</field>
+      <field name="model">hello,-1</field>
+      <field name="action" ref="report_hello"/>
+    </record>
+    
+  </data>
+</tryton>
