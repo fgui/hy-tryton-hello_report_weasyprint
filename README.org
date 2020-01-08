@@ -1,0 +1,12 @@
+
+* Hello Report
+
+This is a simple test to generate a report converting from HTML to PDF.
+
+After version 5.4 tryton uses weasyprint to convert from HTML to PDF.
+
+** requirements
+
+  - A version of tryton with [[http://hg.tryton.org/trytond/rev/3d3d36549669][report.py with weasyprint]] to convert HTML to PDF.
+  - Install weasyprint /pip install weasyprint/
+
