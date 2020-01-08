@@ -1,5 +1,5 @@
 
-* Hello Report
+* Hello Report Weasyprint
 
 This is a simple test to generate a report converting from HTML to PDF.
 
